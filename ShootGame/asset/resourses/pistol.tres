@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://scripts/resource/weapon.gd" type="Script" id=1]
+[ext_resource path="res://asset/sounds/sfx/weapon/pistol_shoot.ogg" type="AudioStream" id=2]
+[ext_resource path="res://asset/sounds/sfx/weapon/pistol_empty.ogg" type="AudioStream" id=3]
+[ext_resource path="res://asset/sounds/sfx/weapon/pistol_reload.ogg" type="AudioStream" id=4]
+
+[resource]
+script = ExtResource( 1 )
+name = "pistol"
+ammo = 12
+capacity = 12
+max_ammo = 99
+strong = 1
+cooldown = 0.5
+shake = 35
+shoot = ExtResource( 2 )
+reload = ExtResource( 4 )
+empty = ExtResource( 3 )

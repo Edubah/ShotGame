@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pistol_empty.ogg-633d1ebc8f661d6c5d867845182ff533.oggstr"
+
+[deps]
+
+source_file="res://asset/sounds/sfx/weapon/pistol_empty.ogg"
+dest_files=[ "res://.import/pistol_empty.ogg-633d1ebc8f661d6c5d867845182ff533.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
